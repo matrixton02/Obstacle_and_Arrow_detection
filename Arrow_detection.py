@@ -27,7 +27,7 @@ def detect_arrow_direction(frame):
             break
 
     return frame
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 while cap.isOpened():
     ret, frame = cap.read()
